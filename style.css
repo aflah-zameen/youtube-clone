@@ -1,0 +1,153 @@
+body{
+    margin:0;
+    font-family:  Roboto, Arial, sans-serif;
+}
+
+
+.left-section{
+    float: left;
+    width:80px;
+    height: 831px;
+    text-align: center;
+    font-size: 10px;
+}
+.left-button{
+    background: rgb(255, 255, 255);
+    border: none;
+    margin-top: 40px;
+}
+.left-button.menu-button{
+    margin-top: 12px;
+}
+.left-button-background{
+    text-align: center;
+    height: 80px;
+    padding-top: 0px;
+}
+.left-button-background:hover{
+    background-color: rgb(233, 227, 227);
+}
+
+
+
+.header{
+    display: flex;
+   height:45px;
+   width: 1824px;
+   border: 1px solid rgb(233, 227, 227);
+   border-left: 0px;
+   padding-top: 7px;
+   float: left;
+}
+.youtube-logo{
+    height: 20px;
+    float: left;
+    margin-top:10px ;
+}
+.in-logo{
+    float:left;
+    font-size: 10px;
+    font-weight: lighter;
+    margin-top:4px ;
+    margin-right: 350px;
+}
+.search-box{
+    float: left;
+    height: 31px;
+    width:500px;
+    border: 1px solid lightgrey;
+}
+.search-button{
+    border:1px solid lightgrey;
+    border-radius: 0px;
+    padding-right:15px;
+    padding-left: 15px;
+    height: 35px;
+    margin-right: 10px;
+}
+.search-image{
+    height: 20px;
+    width:20px;
+    
+}
+.voice-button
+{
+    float:left;
+    border-radius: 100px;
+    height: 35px;
+    border: none;
+}
+.voice-image{
+    height: 20px;
+    width:20px;
+    
+}
+.video-button{
+    border:0px;
+    background: #fff;
+    margin-left: 600px;
+    margin-right: 10px;
+    margin-top: 7px;
+}
+.video-image{
+    height: 24px;
+}
+.bell-button{
+    border:0px;
+    background: #fff;
+    margin-right: 10px;
+    margin-top: 7px;
+}
+.bell-image{
+    height: 24px;
+}
+
+
+
+
+
+
+.upper-section{
+    float: left;
+    width: 1823px;
+    border: 1px solid rgb(233, 227, 227);
+   border-left: 0px;
+   height: 50px;
+}
+.upper-button{
+    height: 30px;
+    width: fit-content;
+    border-radius: 20px;
+    font-size: 15px;
+    font-family: var(--ytd-user-comment-font-family);
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid rgb(233, 227, 227);
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.upper-one{
+    margin-left: 30px;
+}
+
+
+
+
+.right-section{
+    float: left;
+    width: 1793px;
+    border: 1px solid rgb(233, 227, 227);
+   border-left: 0px;
+   height: 795px;
+   background: transparent;
+   background-color: rgba(247, 243, 243, 0.479);
+   padding: 15px;
+}
+.first-row{
+    height: 315px;
+    width: 560px;
+}
+td{
+    padding: 10px;
+   
+}
